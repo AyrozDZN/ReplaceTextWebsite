@@ -86,7 +86,7 @@ function remplace(t,m,r,o=0) {
     //Renvoie la chaine de caractère modifier
 
     var n = 1;
-    var tab_D = table_decal(m); //Création de la table de décalage
+    var tab_D = table_decal(m.toLowerCase()); //Création de la table de décalage
     var end = 0;
 
     if (o == -1) {
